@@ -20,7 +20,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={editor}
               isBlog={false}
               title="
               Deutsch Support"
@@ -44,7 +44,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={chatify}
               isBlog={false}
               title="Popeye Power"
               description="E-Commerce Wordpress"
